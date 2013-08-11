@@ -1,0 +1,28 @@
+.arrows{
+    width: 100%;
+}
+.arrows .left,
+.arrows .right{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top:50%;
+    margin-top: -50px;
+    z-index: 200;
+}
+.arrows .left{
+    left:  5%;
+    background: url("../images/index/arrow.png") -100px 0 no-repeat;
+}
+.arrows .right{
+    right: 5%;
+    background: url("../images/index/arrow.png") no-repeat;
+}
+
+.arrows .left:hover{
+    background-position: -100px -100px;
+}
+.arrows .right:hover{
+    background-position: 0 -100px;
+
+}

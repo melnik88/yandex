@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript" src="js/spaceship.js"></script>
+    <script type="text/javascript">
+        var vessel = new Vessel('Яндекс', [0,0], 1000);
+        var planetA = new Planet('A', [0,0], 0);
+        var planetB = new Planet('B', [100, 100], 5000);
+
+        vessel.report();
+        planetA.report();
+        planetB.report();
+        /* vessel.flyTo([10,10]);
+         vessel.report();*/
+
+        vessel.flyTo(planetB);
+        planetB.loadCargoTo(vessel, 1000);
+        vessel.report();
+
+        vessel.flyTo(planetA);
+        vessel.report();
+        planetA.unloadCargoFrom(vessel, 500);
+
+        vessel.report();
+        planetA.report();
+        planetB.report();
+    </script>
+
+</head>
+
+<body>
+
+</body>
+</html>

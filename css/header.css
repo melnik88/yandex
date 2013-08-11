@@ -1,0 +1,22 @@
+header{
+    font: 14px Verdana, Arial, sans-serif;
+    padding: 0 40px 0 40px;
+    z-index: 500;
+    position: fixed;
+    }
+header img{
+    vertical-align: bottom;
+
+}
+header h1{
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-top: 40px;
+}
+
+header a{
+    color: rgb(255,0,0);
+}
+
+
+header p.yandex:first-letter {color:  rgb(255,0,0);}

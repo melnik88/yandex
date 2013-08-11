@@ -1,0 +1,12 @@
+section.form-wrapper{
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 100%;
+    position: relative;
+}
+section.form-wrapper form{
+    width:11000px;
+    height: 100%;
+    position: relative;
+}

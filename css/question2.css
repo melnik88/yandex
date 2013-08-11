@@ -1,0 +1,144 @@
+.question{
+    display: inline-block;
+    background: rgb(255,255,255);
+    border-radius: 5px;
+    padding: 20px 0;
+    width: 500px;
+    vertical-align: middle;
+    font: 12px Verdana, Arial, sans-serif;
+    box-shadow:  3px 3px 15px rgba(0,0,0,0.5);
+    margin: 140px 60px 0 60px;
+    position: relative;
+    z-index: 100;
+
+}
+.question label{
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+
+.question textarea{
+    display: block;
+    width: 84%;
+    resize: none;
+    margin: 0 8%;
+}
+
+.question p{
+    margin: 10px 0;
+    padding: 0 30px;
+}
+.question ul li{
+    margin: 0 60px;
+}
+.question ol li{
+    margin: 0 60px;
+}
+
+.question input[type="checkbox"]{margin-left: 30px;}
+
+
+.question.last{
+    margin: 0 160px;
+    box-shadow: none;
+    border-radius: inherit;
+    background: none;
+    font-size: 0;
+}
+
+.question.last .left,
+.question.last .right{
+    vertical-align: top;
+    font: 12px Verdana, Arial, sans-serif;
+    width: 49%;
+    display: inline-block;
+}
+.question.last p{
+    font: 12px Verdana, Arial, sans-serif;
+    margin: 15px 0 0 0;
+}
+
+.question.last .right input[type="text"],
+.question.last .right input[type="file"]{
+    width: 100%;
+    margin: 5px 0;
+}
+.question.last .right textarea{
+    width: 100%;
+    margin: 0;
+    margin: 10px 0;
+}
+
+
+.question.last .right p{padding:0;}
+
+.question .last{
+    text-align: left;
+}
+.question .last input{
+    display: inline-block;
+
+}
+
+
+.question.q5 .checkbox-block label{
+    font-weight: normal;
+}
+/* Модификаторы*/
+.w-600{
+    width: 600px;
+}
+.w-800{
+    width: 800px;
+}
+
+.w-300{
+    width: 300px;
+}
+.w-520{
+    width: 520px;
+}
+
+
+.ladybug{
+    background: url("../images/index/question_bg.jpg") rgb(255,255,255) no-repeat;
+}
+
+.english{
+    background: url("../images/index/english.png") 50% 50% no-repeat;
+}
+.command-line{
+  background: rgb(44, 10, 34) url("../images/index/terminal.png") no-repeat 0 0;
+  border-radius: 5px 5px 0 0;
+  font-family: 'Droid Sans Mono', sans-serif;
+  font-size:14px;
+  color: rgb(154, 139, 144);
+}
+
+.command-line label{
+    margin-left: 70px;
+    top: -15px;
+    position: relative;
+    font-size: 14px;
+}
+.command-line textarea{
+    background: none;
+    font-family: 'Droid Sans Mono', sans-serif;
+    color: rgb(154, 139, 144);
+    font-size: 14px;
+    border: none;
+}
+
+.city{
+    border: 1px solid black;
+    padding: 0;
+    /*box-shadow: none;*/
+}
+.city-inner{
+    margin: 3px;
+    padding: 20px 0;
+    border: 2px solid black;
+    height: 100%;
+    border-radius: 5px;
+}

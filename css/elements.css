@@ -1,0 +1,94 @@
+/*TODO разбить эти элементы на отдельные файлы стилей*/
+
+.flower-bg{
+    position: absolute;
+    width:11000px;
+    bottom:-200px;
+    height: 392px;
+    background: url("../images/index/bg2.png") repeat-x 0 0;
+    z-index: 300;
+}
+
+.flag{
+    position: absolute;
+    left: 10800px;
+    bottom: 72px;
+    width: 123px;
+    height: 188px;
+    background: url("../images/index/flag.png");
+    z-index: 400;
+}
+
+.stick{
+    position: absolute;
+    left: 520px;
+    bottom: -380px;
+    height: 100%;
+    width: 5px;
+    background: rgb(255,255,255);
+    z-index: 90;
+    box-shadow:  3px 3px 15px rgba(0,0,0,0.5);
+}
+
+.stick2{
+    position: absolute;
+    left: 750px;
+    bottom: -380px;
+    height: 100%;
+    width: 5px;
+    background: rgb(255,255,255);
+    z-index: 90;
+    box-shadow:  3px 3px 15px rgba(0,0,0,0.5);
+}
+
+.ufo{
+    position: absolute;
+    width: 320px;
+    top: 50px;
+    height: 750px;
+    z-index: 80;
+    background: url("../images/index/ufo.png") no-repeat 0 100%;
+    left: 1200px;
+}
+
+.cow{
+    position: absolute;
+    width: 320px;
+    bottom: 90px;
+    height: 100%;
+    background: url("../images/index/cow.png") no-repeat 0 100%;
+    z-index: 200;
+    left: 4000px;
+}
+
+.cow-bg{
+    display: none;
+    position: absolute;
+    width: 3500px;
+    bottom: 90px;
+    height: 100%;
+    background:url("../images/index/bg4.png");
+    z-index: 50;
+    left: 1800px;
+}
+
+.new-grass{
+    display: none;
+    position: absolute;
+    width: 3500px;
+    bottom:-200px;
+    height: 392px;
+    background:url("../images/index/bg3.png");
+    z-index: 340;
+    left: 1800px;
+}
+
+.line{
+    position: absolute;
+    width: 3500px;
+    top: 0px;
+    height: 392px;
+    background:url("../images/index/line.png") no-repeat;
+    z-index: 50;
+    left: 1800px;
+}
